@@ -1,27 +1,28 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  div.v-cloak
+    TheHeader
+    CardsPage
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// ne pas oublier l'import des composants
+import TheHeader from "@/components/layout/TheHeader"
+import CardsPage from "@/pages/CardsPage"
 
 export default {
   name: 'app',
+  // ne pas oublier de déclarer les composants
   components: {
-    HelloWorld
+    TheHeader,
+    CardsPage,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }

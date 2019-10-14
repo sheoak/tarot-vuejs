@@ -1,5 +1,16 @@
 # tarot-vuecli
 
+
+## Memo
+
+### Create a new vue project
+
+```
+vue create projectname
+cd projectname
+npm run serve
+```
+
 ## Project setup
 ```
 npm install

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+// layout
+$body-min-width: 100%;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$column-gap: 2rem;
+
+$desktop: "100%";
+
+// use sass-loader to load bulma (~ points to node_modules webpack folder)
+@import '~bulma/bulma';
+@import '~bulma-helpers/bulma-helpers.sass';
