@@ -18,9 +18,6 @@
 </template>
 
 <script>
-// facilite la manipulation d’objets, tableaux…
-import _ from 'lodash'
-
 // composants à charger
 import AppButton from "@/components/app/AppButton"
 import AppNotification from "@/components/app/AppNotification"
