@@ -1,20 +1,18 @@
 <template lang="pug">
   div.v-cloak
     TheHeader
-    CardsPage
+    router-view
 </template>
 
 <script>
 // ne pas oublier l'import des composants
 import TheHeader from "@/components/layout/TheHeader"
-import CardsPage from "@/pages/CardsPage"
 
 export default {
   name: 'app',
   // ne pas oublier de déclarer les composants
   components: {
-    TheHeader,
-    CardsPage,
+    TheHeader
   }
 }
 </script>
